@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>resume</title>
+	<meta name="description" content="前端个人网站">
+	<meta name="keywords" content="HTML,CSS,前端,重构,简历"> 
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<!-- 首页的各种资料 -->
+	<div class="wrapper">
+		<div class="container">
+			<div class="tv_wrapper">
+				<div class="tv_inner">
+					<div class="tv_blank">
+						<div class="tv_blank_up"></div>
+						<div class="tv_blank_down"></div>
+					</div>
+					<div class="personal_info">
+						<div class="my_photo">
+							<!-- <img src="images/my_photo.png"> -->
+							<div class="my_photo_img"></div>
+							<div class="my_pic_box">
+								<div class="my_pic"></div>
+								<!-- <img src="images/my_pic.png" class="my_pic"> -->
+							</div>
+							<span class="pic_ding"></span>
+						</div>
+						<div class="my_name_box">
+							<p>李念</p>
+						</div>
+						<div class="my_icon_box">
+							<div class="icon_school"></div>
+							<div class="icon_grade"></div>
+							<div class="icon_location"></div>
+							<div class="icon_job"></div>
+						</div>
+						<div class="tap_1">
+							<p>湖北大学</p>
+						</div>
+						<div class="tap_2">
+							<p>2018届毕业生</p>
+						</div>
+						<div class="tap_3">
+							<p>期待坐标：武汉</p>
+						</div>
+						<div class="tap_4">
+							<p>实习前端</p>
+						</div>
+						<div class="hover_me">不试试怎么知道没有真相</div>
+						<div class="my_skill">
+							<div class="my_skill_cont">
+								<div class="my_skill_row">
+									<div class="html5">html5</div>
+									<div class="css3">css3</div>
+								</div>
+								<div class="my_skill_row">
+									<div class="html">HTML</div>
+									<div class="css">CSS</div>
+								</div>
+								<div class="my_skill_row">
+									<div class="js">JavaScript</div>
+									<div class="jquery">jQuery</div>
+								</div>
+								<div class="my_skill_row">
+									<div class="ajax">Ajax</div>
+									<div class="seajs">nodejs</div>
+									<div class="php">es6</div>
+								</div>
+								<div class="my_skill_row">
+									<div class="ps">Photoshop</div>
+									<div class="ai">Sass</div>
+								</div>
+								<div class="my_skill_row">
+									<div class="pr">less</div>
+									<div class="ppt">Bootstrap</div>
+								</div>
+							</div>
+						</div>
+						<div class="my_exp">
+							<div class="my_exp_box">
+								<div class="my_exp_box_title">
+									校内实践
+								</div>
+								<ul class="my_exp_box_info">
+									<li class="my_exp_box_item">两次校级二等奖学金；</li>
+									<li class="my_exp_box_item">班级宣传委员；</li>
+									<li class="my_exp_box_item">志愿活动爱好者，参与环保、关爱动物、图书馆等多项志愿活动。</li>
+								</ul>
+							</div>
+							<div class="my_exp_box">
+								<div class="my_exp_box_title">
+									别的东西
+								</div>
+								<div class="my_exp_box_others">
+									<div class="my_exp_box_license">
+										<i class="icon_gpa"></i>
+										<p>班级前三</p>
+									</div>
+									<div class="my_exp_box_license">
+										<i class="icon_en"></i>
+										<p>GET4</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tv_sound">
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+				<div class="tv_btn" data-status="on"></div>
+				<div class="tv_ps">点击下方电视开关，再按遥控噢！</div>
+				<div class="tv_hand"></div>
+				<div class="tv_head"></div>
+				<div class="tv_ante_1"></div>
+				<div class="tv_ante_2"></div>
+			</div>
+			<div class="control_wrapper">
+				<div class="control_btn"></div>
+				<ul class="control_ul">
+					<li class="control_cats cats_active">个人资料</li>
+					<li class="control_cats cats_negative">掌握技能</li>
+					<!-- <li class="control_cats cats_negative">前端实习</li> -->
+					<li class="control_cats cats_negative">其他经历</li>
+				</ul>
+				<div class="control_view">
+					一键在线面试
+					<div class="flash_1"></div>
+					<div class="flash_2"></div>
+					<div class="flash_3"></div>
+					<div class="flash_4"></div>
+				</div>
+				<div class="contact">
+					<h3 class="contact_h3">快来关注我</h3>
+					<ul class="contact_info">
+						<span class="contact_qrcode"></span>
+					</ul>
+				</div>
+				<div class="works">更多作品展示</div>
+			</div>
+			<a class="my_download">
+				<i></i>
+				<span>返回首页</span>
+			</a>
+		</div>
+	</div>
+	<!-- 一键面试区 -->
+	<div class="view">
+		<div class="view_wrapper">
+			<div class="my_pic_work">
+				<div class="my_pic_work_img"></div>
+			</div>
+			<div class="welcome_work">
+				<p class="welcome_work_p">
+					亲爱的面试官，早上好！
+				</p>
+			</div>
+			<!-- 问题列表 -->
+			<div class="q_list q_list_1">
+				<div class="q_list_num">
+					<span>1</span>
+					<p class="q_list_cont">简单自我介绍一下。</p>
+				</div>			
+			</div>
+			<div class="q_list q_list_2">
+				<div class="q_list_num">
+					<span>2</span>
+					<p class="q_list_cont">为什么想做前端工程师？</p>
+				</div>
+			</div>
+			<div class="q_list q_list_3">
+				<div class="q_list_num">
+					<span>3</span>
+					<p class="q_list_cont">为什么不从事本身新能源专业？</p>
+				</div>
+			</div>
+			<div class="q_list q_list_4">
+				<div class="q_list_num">
+					<span>4</span>
+					<p class="q_list_cont">你有怎样的优势和不足？</p>
+				</div>
+			</div>
+			<div class="q_list q_list_5">
+				<div class="q_list_num">
+					<span>5</span>
+					<p class="q_list_cont">你的梦想？</p>
+				</div>
+			</div>
+			<div class="my_a_box">
+				<div class="a_pre">
+					点击左测标题，看看我的答案吧！
+				</div>
+				<!-- 第一个答案 -->
+				<div class="a_1">
+					<p class="a_1_p">你好，我是</p>
+					<p class="a_1_p">来自湖北大学的</p>
+					<p class="a_1_p">崇尚计算机却误入新能源的</p>
+					<p class="a_1_p">好奇心突破天际的</p>
+					<p class="a_1_p">只想做个安静的小前端</p>
+					<p class="a_1_p">gigi</p>
+				</div>
+				<!-- 第二个答案 -->
+				<div class="a_2">
+					<p class="a_2_p">可能就像这一句情话</p>
+					<p class="a_2_p">You are the css to my html.</p>
+					<p class="a_2_p">“我的生活索然无味，</p>
+					<p class="a_2_p">直到遇见了你。”</p>
+					<p class="a_2_p">（在IE6这瓶浓硫酸没把你毁容之前T.T)</p>
+					<div class="a_2_img">
+						<div class="a_2_img_img"></div>
+					</div>
+				</div>
+				<!-- 第三个答案 -->
+				<div class="a_3">
+					<p class="a_3_p">因为</p>
+					<p class="a_3_p">特别担心</p>
+					<p class="a_3_p">哪天</p>
+					<p class="a_3_p">手残</p>
+					<p class="a_3_p">打翻一瓶浓硫酸</p>
+					<p class="a_3_p">让我一个<span>小胆的人</span>情何以堪</p>
+				</div>
+				<!-- 第四个答案 -->
+				<div class="a_4">
+					<p class="a_4_p">我的不足是：非计算机专业</p>
+					<p class="a_4_p">导致很多非前端范畴的专业名词似懂非懂，改进ing!</p>
+					<div class="a_4_img_cry"></div>
+					<p class="a_4_p">我的优势是：非计算机专业</p>
+					<p class="a_4_p">不知者无畏，限制少了就敢想了，</p>
+					<p class="a_4_p">如果你希望时不时有所惊喜，</p>
+					<p class="a_4_p">那就选我选我选我！</p>
+					<div class="a_4_img_flash"></div>
+				</div>
+				<!-- 第五个答案 -->
+				<div class="a_5">
+					<p class="a_5_p">有一只喵在晒太阳 ฅ^•ﻌ•^ฅ</p>
+					<p class="a_5_p">有一只汪在等狗粮 (ฅ´ω`ฅ)</p>
+					<p class="a_5_p">有一个人</p>
+					<p class="a_5_p">在陪我打代码</p>
+					<p class="a_5_p">。</p>
+					<p class="a_5_p">。</p>
+					<p class="a_5_p">。</p>
+					<p class="a_5_p">当然，得先有一个你给我发offer！</p>
+				</div>
+			</div>
+		</div>
+		<div class="view_off"></div>
+	</div>
+	<!-- 更多作品的头部 -->
+	<div class="work_header">
+		<div class="work_header_inner">
+			<div class="header_pic">
+				<div class="header_pic_img"></div>
+			</div>
+			<h2 class="header_name">李念想成为一名{前端工程师}</h2>
+			<div class="header_mail">
+				<span></span>1910905054@qq.com
+			</div>
+			
+			<div class="back_btn">
+				回看电视
+			</div>
+		</div>
+	</div>
+	<!-- 更多作品内容 -->
+	<div class="work_wrapper">
+		<div class="work_container">
+			<div class="work_box">
+				<div class="work_title">响应式页面</div>
+				<div class="icon_pen_1"></div>
+				<div class="icon_pen_2"></div>
+				<div class="icon_ankle"></div>
+				<div class="work_pic work_pic_1">
+					<div class="uct_show_img"></div>
+				</div>
+				<div class="work_info">
+					<a href="https://linian12.github.io/respond/" target="_blank">linian12.github.io/respond/</a>
+					<p>
+						<span>重点：</span>响应式设计
+					</p>
+				</div>
+			</div>
+			<div class="work_box">
+				<div class="work_title">IFE 2015task1</div>
+				<div class="icon_ele"></div>
+				<div class="icon_ankle"></div>
+				<div class="work_pic work_pic_2">
+					<div class="jiuyang_show_img"></div>
+				</div>
+				<div class="work_info">
+					
+					<a href="https://linian12.github.io/ife-task1/" target="_blank">linian12.github.io/ife-task1/</a>
+					<p>
+						<span>重点：</span>html5/css3/瀑布流布局
+					</p>
+				</div>
+			</div>
+			<div class="work_box">
+				<div class="work_title">组件式webapp</div>
+				<div class="icon_circle_2"></div>
+				<div class="icon_circle_1"></div>
+				<div class="icon_ankle"></div>
+				<div class="work_pic work_pic_3">
+					<div class="zhuanpan_show_img"></div>
+				</div>
+				<div class="work_info">
+					<h3>请扫描二维码在移动端查看：</h3>
+					<div class="jiuyang_code_img"></div>	
+					<p>
+						<span>重点：</span>canvas/ajax/jquery/组件式开发webapp
+					</p>
+				</div>
+			</div>
+			<div class="work_box">
+				<div class="work_title">html5阅读器</div>
+				<div class="icon_huatong"></div>
+				<div class="icon_ankle"></div>
+				<div class="work_pic work_pic_4">
+					<div class="xueche_show_img"></div>
+				</div>
+				<div class="work_info">
+					<h3>请扫描二维码在移动端查看：</h3>
+					<div class="xueche_code_img"></div>
+					<p>
+						<span>重点：</span>base64图片/ES6+promise/</br>HTML5/localstorage/性能优化
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 回到顶部 -->
+	<div class="gototop" id="gototop">
+		<div class="bow"></div>
+		<div class="arrow"></div>
+		<p>好嗨森！你看到了这里</p>
+	</div>
+	<div class="gototop_on" id="gototop_on">
+		<div class="bow"></div>
+		<div class="arrow"></div>
+	</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/index.js"></script>
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260985979'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1260985979%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+</body>
+</html>
